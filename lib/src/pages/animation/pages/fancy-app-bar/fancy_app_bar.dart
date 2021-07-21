@@ -11,7 +11,7 @@ class _FancyAppBarState extends State<FancyAppBar> {
   ScrollController _scrollController = ScrollController();
   Color? appBarBackground;
   late double topPosition;
-
+  String t = "hello";
   @override
   void initState() {
     topPosition = -80;
